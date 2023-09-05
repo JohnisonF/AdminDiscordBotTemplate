@@ -1,9 +1,9 @@
 const logger = require('./logger');
 
 async function interactionCreate(interaction, client) {
-    console.log(interaction)
     if(!interaction.isChatInputCommand()) return;
-        const command = interaction.client.commands.get(interaction.commandName);
+    
+    const command = interaction.client.commands.get(interaction.commandName);
 
     if(!command) {
         logger.error("Erro: comando não encontrado!")
@@ -16,7 +16,6 @@ async function interactionCreate(interaction, client) {
     if(interaction.commandName == 'ping') {
         params.ping = client.ws.ping;
     }
-
     if(interaction.commandName == 'myuser') {
         params.message = interaction.message
     }

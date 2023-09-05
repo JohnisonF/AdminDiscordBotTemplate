@@ -1,8 +1,6 @@
 const express = require('express');
 const logger = require('./logger');
-const { Client, Events, GatewayIntentBits, Collection, REST, Routes } = require('discord.js');
-const { dataPing, Ping } = require('./slash_commands/ping');
-const { dataMyUser, MyUser } = require('./slash_commands/myuser');
+const { Client, Events, GatewayIntentBits, REST } = require('discord.js');
 const { interactionCreate, messageCreate } = require('./eventFunctions');
 const registerCommands = require('./registerCommands');
 require('dotenv').config();
