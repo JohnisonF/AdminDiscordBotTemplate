@@ -13,8 +13,13 @@ Abra o terminal na raiz do projeto e use o comando `npm start` para iniciar o bo
 # Pasta e Arquivos
 
 `index.js`: Arquivo principal para o Bot, aonde faço as configurações principais do `Client` e inicio ele.
+
 `eventFunctions.js`: Arquivo onde deixo as funções que são chamadas dependendo do evento que o `Client` recebe.
+
 `registerCommands.js`: Arquivo onde fica a configuração do cadastro dos `Slash Commands` para esse Bot.
+
 `/slash_commands`: Pasta onde ficam guardados os `Slash Commands`.
+
 `/logger`: Pasta de configuração do do logger(pino).
+
 `sample.env`: Edite este arquivo com as seus próprios tokens de bot. Após isso renomeie o arquivo de `sample.env` para `.env`.
