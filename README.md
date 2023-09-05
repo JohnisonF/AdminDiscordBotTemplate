@@ -8,7 +8,7 @@ Javascript vanilla com os pacotes mais importantes: Discord.js e Express
 
 # Tutorial
 
-Abra o terminal na raiz do projeto e use o comando `npm start` para iniciar o bot após feita a configuração no `.env`.
+Abra o terminal na raiz do projeto e use o comando `npm install` para instalar todos os pacotes necessários e depois `npm start` para iniciar o bot após feita a configuração no `.env`.
 
 # Pasta e Arquivos
 
