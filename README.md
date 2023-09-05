@@ -6,6 +6,11 @@ Este projeto foi feito com o Discord.js com o intuito de ajudar e criar bots de 
 
 Javascript vanilla com os pacotes mais importantes: Discord.js e Express
 
+# Comandos
+
+Fiz apenas dois comandos inicialmente: `/ping` que mostra o ping e o `/myuser` que mostra as informações do usuário que chamou o comando.
+Em breve farei mais comandos! :)
+
 # Tutorial
 
 Abra o terminal na raiz do projeto e use o comando `npm install` para instalar todos os pacotes necessários e depois `npm start` para iniciar o bot após feita a configuração no `.env`.
